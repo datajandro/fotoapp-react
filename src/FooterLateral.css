@@ -1,0 +1,96 @@
+.footerLateral {
+    margin-top: 3.2rem;
+    width: 19.5rem;
+    padding: 0 0;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header2 {
+    display: flex;
+    height: 3.5rem;
+    align-items: center;
+}
+
+.fotoTuPerfilHeader {
+    border-radius: 50%;
+    width: 3.5rem;
+}
+
+.nombresTuPerfilHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.nombresTuPerfilHeader p {
+    margin-top: 0;
+    margin-left: 1.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.usuarioHeader {
+    color: #232323;
+    font-weight: bold;
+    font-size: 0.87rem;
+}
+
+.nombreHeader {
+    color: #A2A2A2;
+    font-size: 0.95rem;
+}
+
+.buttonTuPerfilHeader {
+    border: none;
+    background-color: transparent;
+    color: #1E9DF4;
+    font-weight: bold;
+    width: 5rem;
+    padding-right: 0;
+}
+
+/*
+Sugerencias
+*/
+
+.tituloSugerencias {
+    color: #797979;
+    font-size: 0.87rem;
+}
+
+/*
+Footer del Footer
+*/
+
+.footerDelFooter {
+    font-size: 0.75rem;
+    color: #D3D3D3;
+    margin-top: 1rem;
+}
+
+.footerUl {
+    margin: 0 0;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 12px;
+    row-gap: 5px;
+    list-style-type: "\22C5";
+}
+
+.footerUl li a{
+    text-decoration: none;
+    color: #D3D3D3;
+}
+
+.footerUl li a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+    .footerLateral {
+        display: none;
+    }
+}

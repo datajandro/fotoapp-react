@@ -1,0 +1,80 @@
+/*
+EstadosLista: Lista de Estados.
+*/
+
+.estadosLista {
+    width: 29.2rem;
+    height: 7.2rem;
+    background-color: #FFFFFF;
+    border: 2px solid #E1E1E1;
+    border-radius: 9px;  
+    margin: auto;
+    margin-top: 2rem;
+    overflow-x: scroll;
+    display: grid;
+  }
+  
+.estadosLista button {
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    color: #353535;
+}
+
+/*
+EstadoFotoLink: Link con Imagen para ver un Estado.
+*/
+
+.estadoFotoLink {
+  width: 4rem;
+  height: 5rem;
+  text-align: center;
+  margin-top: 0.71rem;
+}
+ 
+.fotoEstadoFotoLink {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+}
+
+.bordeColorido {
+  background: 
+    linear-gradient(transparent, transparent) padding-box,
+    linear-gradient(to right, #FE4530, #D41FC6, #FFC602) border-box;
+  border-radius: 50em;
+  border: 3px solid transparent;
+}
+
+.usuarioEstadoFotoLink {
+  margin-top: 0;
+  font-size: 0.85rem;
+}
+
+/*
+VerEstado
+*/
+
+.backgroundVerEstado {
+    background-color: #1A1A1A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    display: flex;
+}
+
+.appNameVerEstado {
+    color: #FAFAFA;
+}
+
+.multimediaVerEstado {
+    margin-top: 2vh;
+    height: 96vh;
+}
+
+.iconCloseVerEstado {
+    color: #FFFFFF;
+}

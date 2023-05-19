@@ -1,0 +1,57 @@
+.navBarTop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #E1E1E1;
+  height: 3.6rem;
+}
+
+.titulo {
+    margin-left: 15px;
+}
+
+.contenedorInputNotificaciones {
+    display: flex;
+    align-items: center;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    background-color: #EFEFEF;
+    width: 16.5rem;
+    height: 2.3rem;
+    border-radius: 8px;
+}
+.inputContainer i {
+    margin: 15px;
+    color: #9C9C9C;
+}
+
+.inputBuscar {
+    border: none;
+    background-color: transparent;
+    display: flex;
+}
+
+.inputBuscar::placeholder {
+    font-size: 1rem;
+    color: #888888;
+}
+
+.botonNotificaciones {
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    margin: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .navBarTop {
+      display: flex;
+    }
+}

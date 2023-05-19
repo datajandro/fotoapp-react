@@ -1,0 +1,381 @@
+/** {
+  border: 1px solid black;
+}
+*/
+/*
+NavBar: Barra de navegacion.
+*/
+
+.navBar {
+  position: fixed;
+  top: 0;
+  background-color: #FFFFFF;
+  font-size: 1.15rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  border-right: 3px solid #F1F1F1;
+  height: 100vh;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.navBar h2 {
+  padding-left: 0.5rem;
+  color: #212121;
+}
+
+.fotoappIconoNavbar {
+  display: none;
+}
+
+.navBarBoton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 12.2rem;
+  height: 3.35rem;
+  border-radius: 30px;
+  margin-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  background-color: none;
+  transition: background-color 150ms;
+  color: #242424;
+}
+
+.navBarBoton > :first-child {
+  font-size: 1.4rem;
+  transition: font-size 150ms;
+  color: #000000;
+}
+
+.navBarBoton > :nth-child(2) {
+  position: relative;
+  left: 0rem;
+  transition: left 150ms;
+}
+
+.navBarBoton:hover {
+  background-color: #FAFAFA;
+}
+
+.navBarBoton:hover > :first-child {
+  font-size: 1.5rem;
+}
+
+.navBarBoton:hover > :nth-child(2) {
+  left: -0.1rem
+}
+
+#fotoPerfilNavBar {
+  width: 1.4rem;
+  height: 1.4rem;
+  object-fit: cover;
+  transition: all 150ms;
+}
+
+.navBarBoton:hover #fotoPerfilNavBar {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.imgBordeCircular {
+  border-radius: 50%;
+}
+
+#navBarMas {
+  margin-bottom: 2.5rem;
+}
+
+
+/*
+Contenedores de la pagina
+*/
+
+.contenidoMasFooter {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-left: 239px;
+}
+
+/*
+AutorPost
+*/
+
+.autorPost {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.6rem;
+  margin-top: 0.3rem;
+}
+
+.autorPostAutor {
+  display: flex;
+  gap: 0.6rem;  
+}
+
+.autorPostImagen {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+}
+
+.autorPostUsuario, .menuPost button {
+  font-weight: bold;
+  font-size: 0.98rem;
+}
+
+.autorPostUsuario a, .menuPost button {
+  text-decoration: none;
+  color: #2C2C2C;
+}
+
+.autorPostUsuario a:hover, .menuPost button:hover {
+  text-decoration: underline;
+  color: #8E8E8E;
+}
+
+.menuPost button {
+  border: none;
+  background: none;
+  font-size: 1.05rem;
+}
+
+.menuPost:hover {
+  color: #8E8E8E;
+}
+
+/*
+Menu
+*/
+
+.menuFondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.651);
+}
+
+.menu {
+  top: calc(50vh - 13.5rem);
+  left: calc(50vw - 12.5rem);
+  width: 25rem;
+  height: 27rem;
+}
+
+.menuUl {
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #090909;
+  display: grid;
+}
+
+.menuUl li {
+  border-bottom: 1px solid #DBDBDB;
+  text-align: center;
+  margin-top: 0.9rem;
+  font-size: 0.9rem;
+}
+
+.menuBold {
+  color: #ED4956;
+  font-weight: bold;
+}
+
+.menuUl li:last-child {
+  border-bottom: none;
+}
+
+/*
+Post
+*/
+
+.post {
+  width: 29.2rem;
+  background-color: #FFFFFF;
+  border: 2px solid #E1E1E1;
+  border-radius: 9px;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+/*
+MultimediaPost
+*/
+
+.multimediaPost {
+  width: 100%;
+  max-height: 60vh;
+  object-fit: cover;
+}
+
+/*
+InteraccionesPost
+*/
+
+.interaccionesPost {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.6rem;
+  margin-left: 0.2rem
+}
+
+.buttonInteraccionesPost {
+  border: none;
+  background-color: transparent;
+  font-size: 1.4rem;
+}
+
+.buttonInteraccionesPost:hover {
+  color: #929292;
+}
+
+/*
+LikesPost
+*/
+
+.likesPost {
+  margin: 0.6rem;
+}
+
+/*
+DescripcionPost
+*/
+
+.descripcionPost {
+  margin: 0.6rem;
+}
+
+/*
+EscribirComentario
+*/
+
+.escribirComentario {
+  width: 100%;
+  height: 3rem;
+  border-top: 2px solid #EFEFEF;
+  display: flex;
+  margin: 0.6rem;
+  justify-content: space-between;
+}
+
+.escribirComentario i {
+  font-size: 1.5rem;
+  margin: auto;
+}
+
+.emojiPickerContainer {
+  position: absolute;
+  margin-top: -451px;
+}
+
+.escribirComentario input {
+  width: 100%;
+  margin: 10px;
+  border: none;
+}
+
+.escribirComentario input::placeholder {
+  color: #737373;
+  font-size: 0.85rem;
+}
+
+.escribirComentario button {
+  border: none;
+  background: none;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+/*
+Cuadro Flotante
+*/
+
+.cuadroFlotante {
+  position: fixed;
+  border: 1px solid #595959;
+  border-radius: 12.5px;
+  background-color: #FFFFFF;
+}
+
+/*
+Crear Post
+*/
+
+.crearPost {
+  top: 25vh;
+  left: 10vw;
+  width: 50vw;
+}
+
+.tituloCrearPost {
+  font-size: 1rem;
+  border-bottom: 2px solid #DEDEDE;
+}
+
+.imagenesCrearPost {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  border: 5px solid black;
+  padding: 20px;
+}
+
+.imagenesCrearPost img {
+  width: 30%;
+}
+
+/*
+Media query
+*/
+
+@media screen and (max-width: 1250px) {
+  .navBar {
+    width: 40px;
+  }
+
+  .fotoappIconoNavbar {
+    display: block;
+  }
+
+  .navBarBoton {
+    width: 2rem;
+    border-radius: 50%;
+  }
+
+  .navBar p {
+    display: none;
+  }
+
+  .contenidoMasFooter {
+    margin-left: 90px ;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navBar {
+    display: none;
+  }
+  .contenidoDeLaPagina {
+    position: relative;
+    top: 38px;
+    z-index: -1
+  }
+  .contenidoMasFooter {
+    margin-left: auto ;
+  }
+}
