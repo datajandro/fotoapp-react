@@ -78,3 +78,9 @@ VerEstado
 .iconCloseVerEstado {
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 471.19px) {
+  .estadosLista {
+    width: 100vw;
+  }
+}

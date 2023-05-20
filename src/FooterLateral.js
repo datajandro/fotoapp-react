@@ -139,6 +139,7 @@ function Footer() {
                 <li key='language'><a target="_blank" rel="noreferrer" href="http://www.google.com">Idioma</a></li>
                 <li key='verification'><a target="_blank" rel="noreferrer" href="http://www.google.com">Meta Verified</a></li>
             </ul>
+            <a rel="noreferrer" target="_blank" href="https://icons8.com/icon/h8kFdtYHEG6i/camera">Camera</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
             <p>© 2023 DANIEL ALEJANDRO TORREALBA ARO</p>
         </div>
     )

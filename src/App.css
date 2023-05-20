@@ -107,6 +107,10 @@ Contenedores de la pagina
 }
 
 /*
+Post: contenedor de cada post individual.
+*/
+
+/*
 AutorPost
 */
 
@@ -377,5 +381,11 @@ Media query
   }
   .contenidoMasFooter {
     margin-left: auto ;
+  }
+}
+
+@media screen and (max-width: 471.19px) {
+  .post {
+    width: 100vw;
   }
 }

@@ -55,3 +55,12 @@
       display: flex;
     }
 }
+
+@media screen and (max-width: 471.19px) {
+    .navBarTop {
+      width: 100vw;
+    }
+    .titulo {
+        display: none;
+    }
+  }
